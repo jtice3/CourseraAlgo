@@ -84,6 +84,7 @@ public class Book implements Comparable<Book>
 				}
 				inputLine = br.readLine();
 			}
+			br.close();
 		}
 		
 		catch (Exception e)
